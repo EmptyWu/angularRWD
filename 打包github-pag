@@ -1,0 +1,4 @@
+ng build --prod --base-href=http://blog.heitang.info/angularRWD/
+ng build --prod --base-href=/angularRWD/
+
+npx ngh --dir=dist/angular-material-template --no-silent

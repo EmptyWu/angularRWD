@@ -19,6 +19,11 @@ const appRoutes: Routes = [
         canActivate: [AuthGuard]
     },
     {
+        path: 'sqreports',
+        loadChildren: './sqreports/sqreports.module#SqreportsModule',
+        canActivate: [AuthGuard]
+    },
+    {
         path: 'users',
         loadChildren: './users/users.module#UsersModule',
         canActivate: [AuthGuard]
