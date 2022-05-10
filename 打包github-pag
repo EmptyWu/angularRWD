@@ -1,4 +1,8 @@
 ng build --prod --base-href=http://blog.heitang.info/angularRWD/
+## 打包程式
 ng build --prod --base-href=/angularRWD/
 
+## 發佈至 github
 npx ngh --dir=dist/angular-material-template --no-silent
+
+參考:https://josephjsf2.github.io/angular/2019/06/13/deploy-angular-to-gitpage.html
