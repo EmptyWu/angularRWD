@@ -6,11 +6,11 @@ import { AuthenticationService } from 'src/app/core/services/auth.service';
 import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-sqreport',
-  templateUrl: './sqreport-list.component.html',
-  styleUrls: ['./sqreport-list.component.css']
+  selector: 'app-mrpt015a-list',
+  templateUrl: './mrpt015a-list.component.html',
+  styleUrls: ['./mrpt015a-list.component.css']
 })
-export class SqreportListComponent implements OnInit {
+export class Mrpt015aListComponent implements OnInit {
   currentUser: any;
   public orbitUrl:string;
 
@@ -21,7 +21,7 @@ export class SqreportListComponent implements OnInit {
     private titleService: Title,
     private logger: NGXLogger,
     private sanitizer:DomSanitizer) {
-      this.orbitUrl='http://59.125.127.35/Hurrypass/HurrypassMobile.aspx?id=MPr001&userid=0000';
+      this.orbitUrl='http://59.125.127.35/Hurrypass/HurrypassMobile.aspx?id=MRPT015a&userid=0000';
   }
 
   ngOnInit() {

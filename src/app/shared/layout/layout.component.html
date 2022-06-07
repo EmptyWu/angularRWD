@@ -64,7 +64,7 @@
           <mat-expansion-panel [expanded]="true">
             <mat-expansion-panel-header>
               <mat-panel-title>
-                <mat-icon>inventory</mat-icon>群組1
+                <mat-icon>inventory</mat-icon>銷售：每日回報
               </mat-panel-title>
             </mat-expansion-panel-header>
             <mat-list-item routerLink="[/dashboard]" >
@@ -85,6 +85,23 @@
               <div>
                 <mat-icon mat-list-icon>receipt_long</mat-icon>
                 請購報表
+              </div>
+            </mat-list-item>
+          </mat-expansion-panel>
+        </mat-accordion>
+        <mat-accordion>
+          <mat-expansion-panel [expanded]="true">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <mat-icon>inventory</mat-icon>銷售：管理報表
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-list-item [routerLink]="['/MRPT015a']" >
+              <div>
+                <mat-icon mat-list-icon>
+                  receipt_long
+                </mat-icon>
+                單月_每日營收_匯總報表
               </div>
             </mat-list-item>
           </mat-expansion-panel>
