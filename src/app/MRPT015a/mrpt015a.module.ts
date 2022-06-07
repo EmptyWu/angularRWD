@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SafePipe } from '../shared/pipes/safe.pipe';
+import { mrpt015aPipe } from '../shared/pipes/mrpt015a.pipe';
 import { Mrpt015aRoutingModule } from './mrpt015a-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { Mrpt015aListComponent } from './mrpt015a-list/mrpt015a-list.component';
@@ -13,7 +13,7 @@ import { Mrpt015aListComponent } from './mrpt015a-list/mrpt015a-list.component';
   ],
   declarations: [
     Mrpt015aListComponent,
-    SafePipe
+    mrpt015aPipe
   ],
   entryComponents: [
   ]
